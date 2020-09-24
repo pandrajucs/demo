@@ -14,6 +14,6 @@ sh "terraform apply --auto-approve"
  }
 }
 def getTerraformPath(){
- def tfHome = tool name: 'terraform-12', type: 'terraform' 
+ def tfHome = tool name: 'terraform-11', type: 'terraform'
  return tfHome
 }
