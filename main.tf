@@ -1,8 +1,7 @@
 //Provide AWS Access key and Secret key to execute terraform
 
 provider "aws" {
-    access_key = "XXXXXXX"
-    secret_key = "YYYYYYY"
+   
     region = "us-east-1"
     
 }
